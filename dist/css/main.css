@@ -78,7 +78,7 @@ body {
   position: relative;
   text-align: center;
   color: #f4f4f4;
-  background: url(/dist/img/keepcoding.jpg) center center/cover; }
+  background: url("../img/keepcoding.jpg") center center/cover; }
 
 #header-home::before {
   content: '';
@@ -194,7 +194,7 @@ body {
       color: #ffbc00; }
 
 #header-about {
-  background: url("/dist/img/keepcoding.jpg") 70% 70%;
+  background: url("../img/keepcoding.jpg") 70% 70%;
   border-bottom: #ffbc00 solid 2px; }
 
 #about-a .about-info {
@@ -332,7 +332,7 @@ body {
       flex-direction: row;
       margin: 1rem 0; }
   #header-about {
-    background: url("/dist/img/keepcoding.jpg") 70% 70%;
+    background: url("../img/keepcoding.jpg") 70% 70%;
     padding: 0.5rem 0; }
   #about-a .about-info {
     grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
